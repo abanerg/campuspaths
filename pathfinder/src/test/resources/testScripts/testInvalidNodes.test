@@ -1,0 +1,12 @@
+# Create graph
+
+CreateGraph graph
+
+AddNode graph A
+AddNode graph B
+AddNode graph C
+AddNode graph D
+
+# Should give unknown: because nodes asked for are not on graph
+
+FindPath graph X Y

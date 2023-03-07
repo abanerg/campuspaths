@@ -1,0 +1,11 @@
+# Create graph
+
+CreateGraph graph
+
+AddNode graph A
+
+AddEdge graph A A 10.000
+
+# Should be path from A to A with cost 0.000 despite edge being added
+
+FindPath graph A A

@@ -1,0 +1,19 @@
+# Create graph
+
+CreateGraph graph
+
+AddNode graph A
+AddNode graph B
+AddNode graph C
+AddNode graph D
+AddNode graph E
+
+AddEdge graph A B 1.000
+AddEdge graph A E 10.000
+AddEdge graph B C 1.000
+AddEdge graph C D 1.000
+AddEdge graph D E 1.000
+
+# Should be path from A to E with cost 4.000
+
+FindPath graph A E

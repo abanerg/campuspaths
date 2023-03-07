@@ -1,0 +1,59 @@
+#map {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 800px;
+}
+#mapDiv {
+    background-color: white;
+}
+
+/* Sets size of map, which has class name "leaflet-container" */
+.leaflet-container {
+    width: 800px;
+    height: 600px;
+}
+
+/* Same as above, but with ID "dropwdowns", and also creates a little margin so things aren't squished together. */
+#dropdowns {
+    text-align: center;
+    margin: 5px;
+}
+
+/* Set font and colors for entire page. */
+body {
+    font-family: encodeSansLight, sans-serif;
+    background: #4b2e83;
+    color: white;
+}
+
+/* Centers the "Line Mapper!" text, which is in a <p> (paragraph) tag inside the <App /> component, and has an
+ID of "app-title". Also makes the text bigger, bold, and adds some space around the title. */
+#app-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+    font-family: encodeSans, sans-serif;
+}
+
+/* Set text centering and margins for dropdown menus */
+#start-select {
+    text-align: center;
+    margin: 10px;
+}
+#end-select {
+    text-align: center;
+    margin: 10px;
+}
+
+/* Uses official UW fonts */
+@font-face {
+    font-family: encodeSans;
+    src: url(encodesansnormal.ttf);
+}
+@font-face {
+    font-family: encodeSansLight;
+    src: url(encodesanslight.ttf);
+}

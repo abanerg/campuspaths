@@ -1,0 +1,13 @@
+# Create graph
+
+created graph graph
+
+added node A to graph
+added node B to graph
+added node C to graph
+added node D to graph
+
+# Should give unknown: because nodes asked for are not on graph
+
+unknown: X
+unknown: Y
